@@ -36,7 +36,8 @@ nav .right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 70%;
+    gap: 3em;
 }
 
 nav .nav-links ul {
