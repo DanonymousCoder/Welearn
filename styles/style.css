@@ -22,6 +22,7 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    gap: 12em;
 }
 
 nav {
@@ -82,4 +83,93 @@ nav .join .have-bg {
     background-color: #5EE085;
     border: none;
     color: #FFFFFF;
+}
+
+/*
+    Hero
+*/
+.hero-cont {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero {
+    width: 97%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero .main {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.hero .main .text {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.hero .main .text h1 {
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    width: 800px;
+}
+
+.hero .main .text p {
+    width: 700px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 5%;
+}
+
+.hero .main .explore {
+    width: 700px;
+    position: relative;
+}
+
+.hero .main .explore input {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #5EE085;
+    padding: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero .main .explore input::placeholder {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.hero .main .explore .explr {
+    background-color: #FFFFFF;
+    color: #000000;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 44px;
+    width: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
 }
