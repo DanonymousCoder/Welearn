@@ -173,3 +173,88 @@ nav .join .have-bg {
     font-size: 20px;
     line-height: 24px;
 }
+
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5em;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+/*
+    About section
+*/
+
+.about-cont {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about {
+    width: 97%;
+    display: flex;
+    gap: 4em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about .head h4 {
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    text-align: center;
+    color: #000000;
+}
+
+.about .head h4 span {
+    color: #5EE085;
+}
+
+.about .body {
+    background-color: #E6FCEC75;
+    padding: 70px 105px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.about .body p {
+    text-align: center;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #000000;
+}
+
+.about .body a {
+    border: 2px solid #5EE085;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 203px;
+    height: 44px;
+
+    /*text*/
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #5EE085;
+}
