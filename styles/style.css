@@ -282,9 +282,10 @@ main {
 .connect .top {
     display: flex;
     width: 100%;
-    gap: 2em;
+    gap: 4em;
     justify-content: space-between;
-    background-color: #000000;
+    align-items: center;
+    padding: 70px;
 }
 
 .connect .top .left {
@@ -293,5 +294,8 @@ main {
 
 .connect .top .right {
     width: 65%;
-    grid-template-rows: repeat(1fr, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5em;
+    align-items: flex-end;
 }
