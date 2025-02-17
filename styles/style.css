@@ -290,12 +290,18 @@ main {
 
 .connect .top .left {
     width: 35%;
+    height: 300px;
 }
 
 .connect .top .right {
     width: 65%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: .5em;
     align-items: flex-end;
+    height: 300px;
+}
+
+.connect .top .right img {
+    width: 50%;
+    height: 100%;
 }
