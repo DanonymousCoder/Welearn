@@ -22,6 +22,7 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    gap: 12em;
 }
 
 nav {
@@ -82,4 +83,307 @@ nav .join .have-bg {
     background-color: #5EE085;
     border: none;
     color: #FFFFFF;
+}
+
+/*
+    Hero
+*/
+.hero-cont {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero {
+    width: 97%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero .main {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.hero .main .text {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.hero .main .text h1 {
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    width: 800px;
+}
+
+.hero .main .text p {
+    width: 700px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 5%;
+}
+
+.hero .main .explore {
+    width: 700px;
+    position: relative;
+}
+
+.hero .main .explore input {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #5EE085;
+    padding: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero .main .explore input::placeholder {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.hero .main .explore .explr {
+    background-color: #FFFFFF;
+    color: #000000;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 44px;
+    width: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5em;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+/*
+    About section
+*/
+
+.about-cont {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.about {
+    width: 97%;
+    display: flex;
+    gap: 4em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about .head h4 {
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    text-align: center;
+    color: #000000;
+}
+
+.about .head h4 span {
+    color: #5EE085;
+}
+
+.about .body {
+    background-color: #E6FCEC75;
+    padding: 70px 105px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.about .body p {
+    text-align: center;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #000000;
+}
+
+.about .body a {
+    border: 2px solid #5EE085;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 203px;
+    height: 44px;
+
+    /*text*/
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #5EE085;
+}
+
+
+
+/*
+    Connect section
+*/
+
+.connect-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.connect-illustr {
+    position: absolute;
+    right: -5px;
+    bottom: 100px;
+}
+
+.connect {
+    width: 77%;
+    display: flex;
+    gap: 4em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect .top {
+    display: flex;
+    width: 100%;
+    gap: 3em;
+    justify-content: space-between;
+    align-items: center;
+    height: 670px;
+}
+
+.connect .top .left {
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.connect .top .left img {
+    height: 650px;
+}
+
+.connect .top .right {
+    width: 65%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect .top .right .img1 {
+    height: 283px;
+    width: 90%;
+}
+
+.connect .top .right img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.connect .top .right .i2 {
+    height: 300px;
+}
+
+.connect .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect .bottom h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.connect .bottom p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.connect .bottom a {
+    background-color: #5EE085;
+    height: 54px;
+    width: 203px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/*
+    Library section
+*/
+
+.library-cont {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
 }
