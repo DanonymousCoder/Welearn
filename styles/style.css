@@ -282,26 +282,40 @@ main {
 .connect .top {
     display: flex;
     width: 100%;
-    gap: 4em;
+    gap: 3em;
     justify-content: space-between;
     align-items: center;
-    padding: 70px;
+    padding: 70px 20px;
+    height: 670px;
 }
 
 .connect .top .left {
     width: 35%;
-    height: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.connect .top .left img {
+    height: 630px;
 }
 
 .connect .top .right {
     width: 65%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: flex-end;
-    height: 300px;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect .top .right .img1 {
+    height: 90%;
+    width: 90%;
 }
 
 .connect .top .right img {
-    width: 50%;
+    width: 100%;
     height: 100%;
 }
