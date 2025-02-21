@@ -10,18 +10,24 @@ body {
 }
 .heading {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background: #ffffff;
   box-shadow: 1px 1px5px #ddd, 1px 1px 5px #ddd;
   border-radius: 5px;
   padding: 7.5px;
 }
-.head-title {
-  margin: 10px;
-}
+
 .search {
   padding: 10px;
   margin: 5px;
+  width: 350px;
+  border-radius: 10px;
+  font-style: italic;
+}
+#country {
+  font-family: cursive;
+  border-radius: 5px;
+  font-weight: 250;
 }
 .icons {
   font-weight: 700;
