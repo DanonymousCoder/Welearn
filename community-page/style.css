@@ -3,10 +3,13 @@
   margin: 0;
   font-family: "Poppins", serif;
 }
+body {
+  background: rgb(247, 237, 237);
+}
 .heading {
   display: flex;
-  padding: 10px 20px 10px 20px;
-  background: wheat;
-  box-shadow: 1px 1px5px #111, 1px 1px 5px #111;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 1px 1px5px #ddd, 1px 1px 5px #ddd;
   border-radius: 5px;
 }
