@@ -12,4 +12,8 @@ body {
   background: #ffffff;
   box-shadow: 1px 1px5px #ddd, 1px 1px 5px #ddd;
   border-radius: 5px;
+  /* line-height: ; */
+}
+.head-title {
+  margin: 10px;
 }
