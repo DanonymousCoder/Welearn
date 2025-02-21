@@ -2,18 +2,27 @@
   padding: 0;
   margin: 0;
   font-family: "Poppins", serif;
+  max-width: auto;
 }
 body {
   background: rgb(247, 237, 237);
 }
 .heading {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background: #ffffff;
   box-shadow: 1px 1px5px #ddd, 1px 1px 5px #ddd;
   border-radius: 5px;
-  /* line-height: ; */
+  padding: 7.5px;
 }
 .head-title {
   margin: 10px;
+}
+.search {
+  padding: 10px;
+  margin: 5px;
+}
+.icons {
+  font-weight: 700;
+  font-size: 20px;
 }
