@@ -25,6 +25,12 @@ header {
     gap: 12em;
 }
 
+.nav-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 nav {
     width: 80%;
     display: flex;
@@ -306,6 +312,7 @@ main {
 
 .connect .top .left img {
     height: 650px;
+    width: 100%;
 }
 
 .connect .top .right {
@@ -319,7 +326,6 @@ main {
 }
 
 .connect .top .right .img1 {
-    height: 283px;
     width: 90%;
 }
 
@@ -386,6 +392,7 @@ main {
     display: flex;
     justify-content: flex-end;
     margin-top: 80px;
+    margin-bottom: 500px;
 }
 
 
@@ -395,33 +402,91 @@ main {
 
 .footer-cont {
     width: 100%;
-    background-color: #5EE085;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    height: 500px;
+    background-color: #000000;
+}
+
+.footer-illustr {
+    position: absolute;
+    left: 0;
+    top: -130%;
 }
 
 footer {
     width: 96%;
-    height: 500px;
-    background-color: yellow;
+    height: 100%;
     margin: 20px 0;
     border-radius: 10px;
-    position: relative;
 }
 
 .cta {
-    background-color: #000000;
-    height: 500px;
+    background-color: #E6FCEC75;
+    height: 390px;
+    width: 65%;
+    max-height: 400px;
     position: absolute;
-    top: 10px;
+    top: -50%;
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.cta h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    width: 70%;
+    text-align: center;
+    color: #000000;
+}
+
+.cta .input {
+    width: 75%;
+    max-height: 100px;
+    position: relative;
+}
+
+.cta .input input {
+    height: 100%;
+    width: 100%;
+    background-color: #D34848;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 60px;
+}
+
+.cta .input input::placeholder {
+    color: #FFFFFF;
+}
+
+.cta .input .img {
+    position: absolute;
+    left: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cta .cta-butn {
+    position: absolute;
+    right: 10px;
+    background-color: #FFFFFF;
 }
 
 footer {
     width: 96%;
-    position: relative;
     height: 500px;
-    background-color: yellow;
+    background-color: #5EE085;
     margin: 20px 0;
     border-radius: 10px;
 }
