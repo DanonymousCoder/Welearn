@@ -57,6 +57,15 @@ body {
 .icons:hover {
   background: grey;
 }
+.profile {
+  background: #fff;
+  display: flex;
+}
+.profile img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
 
 /* ACCESS SECTION */
 .access {
