@@ -51,7 +51,6 @@ body {
 }
 .icons i {
   position: relative;
-  display: inline-flex;
   z-index: 1;
 }
 .icons:hover {
@@ -81,7 +80,7 @@ body {
   border-radius: 10px;
   align-items: center;
   justify-content: center;
-  /* text-align: center; */
+  box-shadow: 1px 1px 5px #ddd, 1px 1px 5px #fff;
 }
 .access p {
   font-size: 23.87px;
@@ -111,4 +110,27 @@ body {
   right: -785px;
   width: 180px;
   height: 150px;
+}
+.share {
+  display: flex;
+  background: lightgray;
+  position: relative;
+  justify-content: space-around;
+}
+.share img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.share .search {
+  width: 600px;
+  padding: 20px;
+  font-family: cursive;
+  font-style: italic;
+  color: gray;
+  background: rgb(236, 233, 233);
+}
+.share-icons {
+  position: relative;
+  justify-content: space-between;
 }
