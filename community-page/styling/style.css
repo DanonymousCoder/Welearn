@@ -134,7 +134,6 @@ i:hover {
   width: 975px;
   display: flex;
   background: white;
-
   padding: 5px;
   border-radius: 5px;
   justify-content: space-around;
@@ -202,6 +201,7 @@ i:hover {
   border: none;
   border-radius: 4px;
   padding: 5px;
+  cursor: pointer;
 }
 ul .select {
   text-align: center;
@@ -215,9 +215,26 @@ ul .select {
   height: 120px;
   background: white;
   max-width: 975px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 125px;
+  border-radius: 5px;
 }
-.profile-extend img {
+.tag {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tag img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+}
+.more a {
+  width: 300px;
+  color: black;
+  text-decoration: none;
+  border: 2px solid green;
+  border-radius: 50px;
 }
