@@ -192,6 +192,7 @@ i:hover {
 .relation ul {
   display: flex;
   justify-content: space-around;
+  margin-top: 26px;
 }
 .relation li {
   max-width: 270px;
@@ -207,4 +208,16 @@ ul .select {
   width: 70px;
   color: black;
   border: 2px solid green;
+}
+
+/* PROFILE SECTION */
+.profile-extend {
+  height: 120px;
+  background: white;
+  max-width: 975px;
+}
+.profile-extend img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
