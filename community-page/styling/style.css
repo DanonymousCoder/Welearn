@@ -93,7 +93,7 @@ i:hover {
   position: absolute;
   margin-top: 27.5px;
   margin-left: 125px;
-  background: linear-gradient(palegreen, white, rgb(242, 177, 79));
+  background: linear-gradient(#5ee08526, white, #b940402b);
   border: none;
   outline: none;
   border-radius: 10px;
