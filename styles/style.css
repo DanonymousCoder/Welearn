@@ -25,6 +25,12 @@ header {
     gap: 12em;
 }
 
+.nav-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 nav {
     width: 80%;
     display: flex;
@@ -306,6 +312,7 @@ main {
 
 .connect .top .left img {
     height: 650px;
+    width: 100%;
 }
 
 .connect .top .right {
@@ -319,7 +326,6 @@ main {
 }
 
 .connect .top .right .img1 {
-    height: 283px;
     width: 90%;
 }
 
@@ -386,4 +392,203 @@ main {
     display: flex;
     justify-content: flex-end;
     margin-top: 80px;
+    margin-bottom: 500px;
+}
+
+
+/*
+    Library section
+*/
+
+.footer-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 500px;
+}
+
+.footer-illustr {
+    position: absolute;
+    left: 0;
+    top: -130%;
+}
+
+footer {
+    width: 96%;
+    height: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.cta {
+    background-color: #E6FCEC75;
+    height: 390px;
+    width: 65%;
+    max-height: 400px;
+    position: absolute;
+    top: -50%;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.cta-in {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.cta h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    width: 70%;
+    text-align: center;
+    color: #000000;
+}
+
+.cta .input {
+    width: 75%;
+    height: 65px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.cta .input input {
+    height: 100%;
+    width: 100%;
+    background-color: #D34848;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 70px;
+
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.cta .input input::placeholder {
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.cta .input .img {
+    position: absolute;
+    left: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .cta-butn {
+    position: absolute;
+    right: 10px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    max-width: 145px;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #000000;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.cta-in .ellipse {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer {
+    width: 96%;
+    height: 500px;
+    background-color: #5EE085;
+    margin: 20px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    margin-top: 250px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content .left {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.footer-content .left .logo h2 {
+    color: #000000;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.footer-content .left p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+    color: #F9F9F9;
+    max-width: 450px;
+}
+
+.footer-content .right {
+    display: flex;
+    gap: 3em;
+}
+
+.footer-content .right .col {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.footer-content .right .col p {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #000000;
+}
+
+.footer-content .right .col ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer-content .right .col ul li a {
+    color: #F9F9F9;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
 }
