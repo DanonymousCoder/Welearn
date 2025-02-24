@@ -6,6 +6,7 @@
 
 .container {
     width: 100%;
+    background-color: #F9F9F9;
 }
 
 ul {
@@ -39,20 +40,25 @@ nav {
     margin-top: 30px;
 }
 
+nav .logo {
+    width: 20%;
+}
+
 nav .right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 80%;
     gap: 3em;
 }
 
 nav .nav-links ul {
     display: flex;
     gap: 3em;
-    background-color: #F9F9F9;
+    background-color: #FFFFFF;
     padding: 30px 50px;
     border-radius: 20px;
+    width: 100%;
 }
 
 nav .nav-links ul>li>a {
@@ -94,10 +100,20 @@ nav .join .have-bg {
 /*
     Hero
 */
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .hero-cont {
     width: 80%;
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    height: 900px;
 }
 
 .hero {
@@ -107,7 +123,6 @@ nav .join .have-bg {
 }
 
 .hero .main {
-    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
@@ -180,6 +195,24 @@ nav .join .have-bg {
     line-height: 24px;
 }
 
+.tree {
+    position: absolute;
+    top: 60px;
+    right: -100px;
+    width: 100%;
+}
+
+.hero-arr {
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+}
+
+.rectangle {
+    position: absolute;
+    bottom: 210px;
+    right: 0;
+}
 
 
 main {
@@ -284,7 +317,7 @@ main {
 .connect-illustr {
     position: absolute;
     right: -5px;
-    bottom: 100px;
+    bottom: 200px;
 }
 
 .connect {
