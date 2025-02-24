@@ -21,12 +21,13 @@ body {
   font-weight: bold;
   margin-left: 30px;
   margin-top: 10px;
+  color: #5ee085;
 }
 .search {
   padding: 10px;
   width: 395px;
   height: 35px;
-  background: rgb(246, 242, 242);
+  background: #f9f9f9;
   font-style: italic;
   font-family: cursive;
   border: none;
@@ -51,7 +52,7 @@ body {
 .icons {
   font-weight: 700;
   font-size: 20px;
-  color: blue;
+  color: #001a72;
   display: flex;
   justify-content: space-between;
 }
@@ -78,10 +79,11 @@ i:hover {
 }
 .profile p {
   margin-right: 20px;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 .profile img {
   border-radius: 50%;
+  border: 1px solid #5ee085;
   width: 37px;
   height: 37px;
 }
@@ -93,7 +95,7 @@ i:hover {
   position: absolute;
   margin-top: 27.5px;
   margin-left: 125px;
-  background: linear-gradient(#5ee08526, white, #b940402b);
+  background: linear-gradient(to right, #5ee08526, #b940402b);
   border: none;
   outline: none;
   border-radius: 10px;
@@ -112,7 +114,7 @@ i:hover {
   height: 32.5px;
   padding: 5px;
   color: gray;
-  background: rgb(246, 242, 242);
+  background: #f9f9f9;
   font-style: italic;
   font-family: cursive;
   border: none;
@@ -152,7 +154,7 @@ i:hover {
   padding: 15px;
   font-family: cursive;
   font-style: italic;
-  background: rgb(246, 242, 242);
+  background: #f9f9f9;
   color: gray;
   border: none;
 }
@@ -230,13 +232,26 @@ ul .select {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 10px;
 }
-.more a {
-  width: 500px;
-  height: 250px;
+.tag p {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.more .follow {
+  width: 80px;
+  height: 30px;
   color: black;
   text-decoration: none;
-  border: 2px solid green;
+  border: 1px solid green;
+  background: white;
   border-radius: 10px;
-  /* padding: 5px; */
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 20px;
+  gap: 32px;
+}
+.more i {
+  font-size: 14.5px;
 }
