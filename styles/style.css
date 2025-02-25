@@ -358,7 +358,7 @@ main {
 }
 
 .connect .top .left img {
-    height: 640px;
+    height: 660px;
     width: 100%;
 }
 
@@ -371,20 +371,37 @@ main {
     justify-content: center;
 }
 
-.connect .top .right .img1 {
-    width: 90%;
+.connect .top {
+    justify-content: center;
 }
 
-.connect .top .right img {
-    width: 100%;
+.connect .top .left {
+    width: 40%;
+}
+
+.connect .top .right {
+    width: 60%;
     height: 100%;
-    background-position: center;
-    object-fit: cover;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.connect .top .right .i2 {
+.row1,
+.row2 {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    gap: .5em;
+}
+
+.connect .top .right .row1 img {
     height: 300px;
+}
+
+.connect .top .right .row2 img {
+    height: 325px;
 }
 
 .connect .bottom {
@@ -760,5 +777,15 @@ footer {
 
     .footer-content .right .col {
         gap: 2.8em;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .hero-arr {
+        height: 160px;
+    }
+
+    .tree {
+        top: 40px;
     }
 }
