@@ -21,6 +21,8 @@
 
     <link rel="stylesheet" href="./styles/style.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Welearn</title>
 </head>
 
@@ -34,7 +36,7 @@
                 navbar
             -->
 
-            <div class="nav-cont">
+            <div class="nav-cont" id="home">
                 <nav>
                     <div class="logo">
                         <img src="./assets/images/WeLearn.png" alt="">
@@ -48,10 +50,10 @@
 
                         <div class="nav-links">
                             <ul>
-                                <li><a href="#" class="bold">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Community</a></li>
-                                <li><a href="#">Library</a></li>
+                                <li><a href="#home" class="bold">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#connect">Community</a></li>
+                                <li><a href="#library">Library</a></li>
                             </ul>
                         </div>
 
@@ -76,17 +78,17 @@
                     <div class="hero">
                         <div class="main">
                             <div class="text">
-                                <h1>
+                                <h1 data-aos="fade-down-right" data-aos-delay="1500">
                                     Empowering Students,
                                     Shaping The Future.
                                 </h1>
-                                <p>
+                                <p data-aos="fade-up" data-aos-delay="2000">
                                     A global student community fostering learning, collaboration,
                                     and access to essential resources to drive sustainable development.
                                 </p>
                             </div>
 
-                            <div class="explore">
+                            <div class="explore" data-aos="fade-up" data-aos-delay="2700">
                                 <input type="text" placeholder="Email address">
                                 <a href="#" class="explr">Sign Up <img src="./assets/images/send.png" alt=""></a>
                             </div>
@@ -111,13 +113,13 @@
                 About Section
             -->
 
-            <div class="about-cont">
+            <div class="about-cont" id="about" data-aos="fade-down-right" data-aos-delay="1500">
                 <div class="about">
-                    <div class="head">
+                    <div class="head" data-aos="flip-left" data-aos-delay="2000">
                         <h4>About We<span>Learn</span></h4>
                     </div>
 
-                    <div class="body">
+                    <div class="body" data-aos="fade-up" data-aos-delay="2500">
                         <p>
                             Welearn is a vibrant student community designed to empower learning, collaboration, and
                             growth. We believe that education extends beyond the classroom, that’s why we’ve built a
@@ -132,7 +134,7 @@
                 Connect section
             -->
 
-            <div class="connect-cont">
+            <div class="connect-cont" id="connect" data-aos="zoom-in-up" data-aos-delay="1500">
                 <div class="connect">
                     <div class="top">
                         <div class="left">
@@ -166,8 +168,8 @@
                         Connect Text/Bottom
                     -->
                     <div class="bottom">
-                        <h5>Connect</h5>
-                        <p>
+                        <h5 data-aos="flip-right" data-aos-delay="2000">Connect</h5>
+                        <p data-aos="zoom-out-down" data-aos-duration="3000">
                             Connect with students like yourself around the world. Share ideas,
                             do home works, innovate, and discuss the future.
                         </p>
@@ -187,13 +189,13 @@
                 Library Section
             -->
 
-            <div class="library-cont">
+            <div class="library-cont" id="library" data-aos="fade-down-right" data-aos-delay="1500">
                 <div class="about">
-                    <div class="head">
+                    <div class="head" data-aos="flip-left" data-aos-delay="2000">
                         <h4>Library</h4>
                     </div>
 
-                    <div class="body">
+                    <div class="body" data-aos="fade-up" data-aos-delay="2500">
                         <p>
                             Our Library is the life saving parachute every students dream to have.
                             There, you can get books, resources, texts, courses, and lots more!
@@ -276,6 +278,12 @@
         </div>
 
     </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
