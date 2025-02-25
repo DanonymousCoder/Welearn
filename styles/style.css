@@ -676,7 +676,55 @@ footer {
         width: 90%;
     }
 
+    .hero .main .text h1 {
+        font-size: 50px;
+        line-height: 80px;
+        width: 550px;
+    }
+
+    .hero .main .explore {
+        width: 550px;
+    }
+
     .tree {
-        height: 600px;
+        height: 500px;
+        right: -50px;
+        top: 100px;
+    }
+
+    .hero-arr {
+        height: 80px;
+        left: 0;
+        bottom: 350px;
+    }
+
+    .rectangle {
+        height: 100px;
+        bottom: 400px;
+    }
+
+    .hero .main .text p {
+        font-size: 22px;
+    }
+
+    .connect {
+        width: 88%;
+    }
+
+    .connect .top {
+        justify-content: center;
+        background-color: #000000;
+    }
+
+    .connect .top .right {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .connect .top .right img {
+        width: 50%;
+        height: 50%;
     }
 }
