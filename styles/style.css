@@ -6,6 +6,7 @@
 
 .container {
     width: 100%;
+    background-color: #F9F9F9;
 }
 
 ul {
@@ -39,25 +40,35 @@ nav {
     margin-top: 30px;
 }
 
+nav .logo {
+    width: 20%;
+}
+
 nav .right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 80%;
     gap: 3em;
 }
 
 nav .nav-links ul {
     display: flex;
     gap: 3em;
-    background-color: #F9F9F9;
+    background-color: #FFFFFF;
     padding: 30px 50px;
     border-radius: 20px;
 }
 
+nav .nav-links ul li>a.bold {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
 nav .nav-links ul>li>a {
     color: #000000;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     font-family: "Lato", sans-serif;
@@ -94,10 +105,20 @@ nav .join .have-bg {
 /*
     Hero
 */
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .hero-cont {
     width: 80%;
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    height: 900px;
 }
 
 .hero {
@@ -107,7 +128,6 @@ nav .join .have-bg {
 }
 
 .hero .main {
-    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
@@ -180,6 +200,29 @@ nav .join .have-bg {
     line-height: 24px;
 }
 
+.explr img {
+    padding-left: 7px;
+    height: 28px;
+}
+
+.tree {
+    position: absolute;
+    top: 60px;
+    right: -100px;
+    width: 100%;
+}
+
+.hero-arr {
+    position: absolute;
+    bottom: 140px;
+    left: 0;
+}
+
+.rectangle {
+    position: absolute;
+    bottom: 210px;
+    right: 0;
+}
 
 
 main {
@@ -284,7 +327,7 @@ main {
 .connect-illustr {
     position: absolute;
     right: -5px;
-    bottom: 100px;
+    bottom: 200px;
 }
 
 .connect {
@@ -298,7 +341,7 @@ main {
 .connect .top {
     display: flex;
     width: 100%;
-    gap: 3em;
+    gap: 1em;
     justify-content: space-between;
     align-items: center;
     height: 670px;
@@ -308,19 +351,22 @@ main {
     width: 35%;
     display: flex;
     align-items: center;
+    height: 100%;
+    padding-top: 10px;
+    object-fit: cover;
+    background-position: center;
 }
 
 .connect .top .left img {
-    height: 650px;
+    height: 640px;
     width: 100%;
 }
 
 .connect .top .right {
-    width: 65%;
+    width: 60%;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0;
     align-items: center;
     justify-content: center;
 }
@@ -591,4 +637,128 @@ footer {
     font-weight: 400;
     font-size: 20px;
     line-height: 50px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    nav {
+        width: 90%;
+    }
+
+    nav .logo img {
+        height: 20px;
+    }
+
+    nav ul {
+        gap: 1.5em;
+    }
+
+    nav .right {
+        gap: 1.5em;
+    }
+
+    nav .nav-links ul {
+        gap: 1.5em;
+        padding: 20px 25px;
+    }
+
+    nav .join {
+        gap: 1em;
+    }
+
+    .hero-cont {
+        width: 90%;
+    }
+
+    .hero .main .text h1 {
+        font-size: 50px;
+        line-height: 80px;
+        width: 550px;
+    }
+
+    .hero .main .explore {
+        width: 550px;
+    }
+
+    .tree {
+        height: 500px;
+        right: -50px;
+        top: 100px;
+    }
+
+    .hero-arr {
+        height: 120px;
+        left: 0;
+        bottom: 300px;
+    }
+
+    .rectangle {
+        height: 100px;
+        bottom: 400px;
+    }
+
+    .hero .main .text p {
+        font-size: 22px;
+    }
+
+    .connect {
+        width: 88%;
+    }
+
+    .connect .top {
+        justify-content: center;
+    }
+
+    .connect .top .left {
+        width: 40%;
+    }
+
+    .connect .top .right {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .row1,
+    .row2 {
+        display: flex;
+        height: 50%;
+        width: 100%;
+        align-items: center;
+        gap: .5em;
+    }
+
+    .connect .top .right .row1 img,
+    .connect .top .right .row2 img {
+        height: 300px;
+    }
+
+    .footer-illustr {
+        height: 350px;
+        left: 0;
+    }
+
+    .footer-content {
+        width: 85%;
+    }
+
+    .footer-content .left p {
+        max-width: 400px;
+    }
+
+    .footer-content .right {
+        gap: 2em;
+    }
+
+    .footer-content .right .col {
+        gap: 2.8em;
+    }
 }
