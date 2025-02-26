@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    font-family: "Epilogue", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a {
+    color: #5EE085;
+}
