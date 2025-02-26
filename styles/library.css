@@ -229,6 +229,9 @@ nav .join .have-bg {
 .book-sec {
     width: 80%;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
 }
 
 .textbook {
@@ -250,16 +253,29 @@ h6 {
 .bg {
     display: flex;
     align-items: center;
+    padding: 30px 0;
     gap: 1em;
     width: 100%;
     background-color: #E6FCEC75;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    width: 80%;
 }
 
 .box {
-    width: 17%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     gap: 1em;
+}
+
+.box img {
+    width: 100%;
 }
 
 .butt {
@@ -272,10 +288,15 @@ h6 {
 }
 
 .butt p {
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 19.31px;
-    line-height: 23.17px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1F601A;
+}
+
+.butt img {
+    height: 20px;
 }
 
 @media (min-width: 1000px) and (max-width: 1224px) and (max-resolution: 1.5dppx) {
