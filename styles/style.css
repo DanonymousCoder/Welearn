@@ -46,15 +46,15 @@ nav .logo {
 
 nav .right {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     width: 80%;
-    gap: 3em;
+    gap: 13%;
 }
 
 nav .nav-links ul {
     display: flex;
-    gap: 3em;
+    gap: 2em;
     background-color: #FFFFFF;
     padding: 30px 50px;
     border-radius: 20px;
@@ -319,7 +319,7 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    padding-top: 350px;
     position: relative;
     overflow: hidden;
 }
