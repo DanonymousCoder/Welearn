@@ -1,0 +1,332 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+    Global Styles
+*/
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.nav-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F9F9F9;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 0 30px 0;
+}
+
+nav .logo {
+    width: 15%;
+}
+
+nav .logo img {
+    height: 20%;
+}
+
+nav .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 1.5em;
+}
+
+nav .nav-links ul {
+    display: flex;
+    gap: 1.5em;
+    background-color: #FFFFFF;
+    padding: 20px 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+nav .nav-links ul li>a.bold {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+nav .nav-links ul>li>a {
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+nav .join {
+    display: flex;
+    gap: 1em;
+}
+
+nav .join a {
+    border: 2px solid #5EE085;
+    background: none;
+    color: #000000;
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 25px;
+    width: 105px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+nav .join .have-bg {
+    background-color: #5EE085;
+    border: none;
+    color: #FFFFFF;
+}
+
+.book-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.book-cont .book-col {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-cont .book-col .top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.book-cont .book-col .top .left {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.book-cont .book-col .top h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 24.91px;
+    line-height: 32.9px;
+    color: #000000;
+}
+
+.book-cont .book-col .top .input {
+    position: relative;
+    width: 492px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.book-cont .book-col .top .input input {
+    background-color: #F9F9F9;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid #DDDDDD;
+    border-radius: 14px;
+    padding: 12px 20px;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 20px;
+    color: #00000073;
+}
+
+.book-cont .book-col .top .input input::placeholder {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 20px;
+    color: #00000073;
+}
+
+.book-cont .book-col .top .input img {
+    position: absolute;
+    right: 15px;
+}
+
+.book-cont .book-col .top .btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.book-cont .book-col .top .btn a {
+    background-color: #5EE085;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    border-radius: 14px;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.book-cont .book-col .bottom {
+    margin-top: 50px;
+    display: flex;
+    width: 90%;
+}
+
+.book-cont .book-col .bottom .all {
+    width: 30%;
+    border-bottom: 1px solid #E60000;
+    padding: 10px 5px;
+}
+
+.book-cont .book-col .bottom .all h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.book-cont .book-col .bottom .saved {
+    width: 70%;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px 30px;
+}
+
+.book-cont .book-col .bottom .saved h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #00000099;
+}
+
+.book-sec {
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin-bottom: 50px;
+}
+
+.textbook {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h6 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1F601A;
+}
+
+.bg {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    gap: 1em;
+    width: 100%;
+    background-color: #E6FCEC75;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    width: 80%;
+}
+
+.box {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.box img {
+    width: 100%;
+}
+
+.butt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5em;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+}
+
+.butt p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1F601A;
+}
+
+.butt img {
+    height: 20px;
+}
+
+@media (min-width: 1000px) and (max-width: 1224px) and (max-resolution: 1.5dppx) {
+    nav {
+        width: 90%;
+    }
+
+    nav .logo img {
+        height: 20px;
+    }
+
+    nav ul {
+        gap: 1.5em;
+    }
+
+    nav .right {
+        gap: 1.5em;
+    }
+
+    nav .nav-links ul {
+        gap: 1.5em;
+        padding: 20px 25px;
+    }
+
+    nav .join {
+        gap: 1em;
+    }
+}

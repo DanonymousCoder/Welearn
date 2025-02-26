@@ -789,3 +789,9 @@ footer {
         top: 40px;
     }
 }
+
+@media (min-width: 1740px) and (max-width: 2040px) {
+    .hero-arr {
+        display: none;
+    }
+}
