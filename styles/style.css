@@ -245,6 +245,7 @@ main {
     display: flex;
     justify-content: flex-end;
     margin-top: 50px;
+    padding-top: 150px;
 }
 
 .about {
