@@ -2,4 +2,4 @@
 
 ### SDG 4 Project
 
-#### Community - Resources - Education
+#### Community | Resources | Education
