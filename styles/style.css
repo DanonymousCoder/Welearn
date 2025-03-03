@@ -658,6 +658,26 @@ footer {
 }
 
 
+@media screen and (max-width: 425px) {
+    nav .right {
+        display: none;
+    }
+
+    .hero-cont {
+        width: 90%;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .hero .main .text h1 {
+        font-size: 12px;
+        line-height: 5px;
+        font-weight: 500;
+        max-width: 300px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .container {
