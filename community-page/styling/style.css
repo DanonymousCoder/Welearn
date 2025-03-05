@@ -425,4 +425,47 @@ ul .select {
     border-radius: 50%;
     border: 1px solid #5ee;
   }
+
+  /* ACCESS SECTION */
+  .access {
+    width: 475px;
+    height: 195px;
+    position: absolute;
+    margin-top: 27.5px;
+    margin-left: 10px;
+    background: linear-gradient(to right, #5ee08526, #b940402b);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .access p {
+    font-size: 23.87px;
+    font-weight: 574;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 35px;
+  }
+  .search-topic {
+    width: 450px;
+    height: 32.5px;
+    padding: 5px;
+    color: gray;
+    background: #f9f9f9;
+    font-style: italic;
+    font-family: cursive;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 43px;
+  }
+  .access img {
+    position: relative;
+    top: -110px;
+    right: -785px;
+    width: 180px;
+    height: 150px;
+  }
 }
