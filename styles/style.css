@@ -692,6 +692,30 @@ footer {
         font-weight: 500;
         max-width: 20%;
     }
+
+    .connect .top .right .row1 img {
+        max-height: 50px;
+    }
+
+    .connect .top .right .row2 img {
+        max-height: 60px;
+    }
+
+    .connect .top .right {
+        width: 100%;
+        margin-right: 205px;
+    }
+
+    .connect-illustr {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .connect-illustr {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -776,6 +800,67 @@ footer {
 
     .connect-cont {
         padding-top: 10px;
+    }
+
+    .connect {
+        width: 98%;
+    }
+
+    .connect .top {
+        gap: 0.01em;
+        height: 320px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .connect .top .left {
+        max-width: 0.01%;
+    }
+
+    .connect .top .left img {
+        max-height: 0.001px;
+        width: 0.001%;
+    }
+
+    .connect .top .right {
+        width: 100%;
+        margin-right: 75px;
+    }
+
+    .row1,
+    .row2 {
+        gap: .1em;
+    }
+
+    .connect .top .right .row1 img {
+        max-height: 140px;
+    }
+
+    .connect .top .right .row2 img {
+        max-height: 150px;
+    }
+
+    .connect .bottom {
+        width: 95%;
+    }
+
+    .connect .bottom h5 {
+        font-size: 25px;
+    }
+
+    .connect .bottom p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .connect .bottom a {
+        height: 44px;
+        width: 180px;
+        font-size: 18px;
+    }
+
+    .connect-illustr {
+        height: 200px;
     }
 }
 
