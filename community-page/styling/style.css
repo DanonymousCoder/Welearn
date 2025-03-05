@@ -353,6 +353,7 @@ ul .select {
     display: flex;
     justify-content: space-between;
     background: #ffffff;
+    width: 100%;
     box-shadow: 1px 1px 5px #ddd, 1px 1px 5px #ddd;
     padding: 10px;
   }
@@ -428,11 +429,11 @@ ul .select {
 
   /* ACCESS SECTION */
   .access {
-    width: 475px;
+    width: 525px;
     height: 195px;
     position: absolute;
     margin-top: 27.5px;
-    margin-left: 10px;
+    margin-left: 35px;
     background: linear-gradient(to right, #5ee08526, #b940402b);
     border: none;
     outline: none;
