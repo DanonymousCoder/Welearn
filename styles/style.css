@@ -862,6 +862,49 @@ footer {
     .connect-illustr {
         height: 200px;
     }
+
+    .footer-illustr {
+        max-height: 200px;
+        top: -100%;
+    }
+
+    .cta {
+        width: 85%;
+        max-height: 370px;
+        height: 400px;
+    }
+
+    .cta h4 {
+        font-size: 20px;
+    }
+
+    .cta .input {
+        width: 90%;
+    }
+
+    .cta .input input::placeholder,
+    .cta .input input {
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 500;
+    }
+
+    .cta .cta-butn {
+        font-size: 14px;
+        max-width: 100px;
+    }
+
+    .cta-in .ellipse {
+        height: 70px;
+    }
+
+    footer {
+        min-height: 500px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 1024px) {
