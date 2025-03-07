@@ -709,6 +709,34 @@ footer {
     .connect-illustr {
         display: none;
     }
+
+    .cta {
+        width: 95%;
+        max-height: 370px;
+        height: 350px;
+        margin-top: 150px;
+        top: -110%;
+    }
+
+    .footer-illustr {
+        max-height: 120px;
+    }
+
+    .cta h4 {
+        font-size: 10px;
+    }
+
+    .cta .input input::placeholder,
+    .cta .input input {
+        font-size: 10px;
+        line-height: 14px;
+        font-weight: 500;
+    }
+
+    .cta-in .ellipse {
+        height: 25px;
+        z-index: -199;
+    }
 }
 
 
@@ -865,13 +893,15 @@ footer {
 
     .footer-illustr {
         max-height: 200px;
-        top: -100%;
+        top: -120%;
     }
 
     .cta {
         width: 85%;
         max-height: 370px;
-        height: 400px;
+        height: 350px;
+        margin-top: 150px;
+        top: -110%;
     }
 
     .cta h4 {
@@ -899,11 +929,43 @@ footer {
     }
 
     footer {
-        min-height: 500px;
+        height: auto;
     }
 
     .footer-content {
         flex-direction: column;
+        gap: 2em;
+    }
+
+    .footer-content .left .logo h2 {
+        font-size: 25px;
+    }
+
+    .footer-content .left p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .footer-content .right {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .footer-content .right .col {
+        gap: .5em;
+    }
+
+    .footer-content .right .col p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .footer-content .right .col ul {
+        gap: .5em;
+    }
+
+    .footer-content .right .col ul li a {
+        font-size: 18px;
     }
 }
 
