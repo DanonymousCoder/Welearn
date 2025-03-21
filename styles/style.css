@@ -753,6 +753,7 @@ footer {
 
     nav .right {
         position: absolute;
+        display: none;
     }
 
     nav .right.active {
@@ -767,6 +768,22 @@ footer {
         align-items: center;
         justify-content: center;
         padding: 20px 0;
+    }
+
+    nav .right.active .ham {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    nav .right.active .ham i {
+        font-size: 40px;
+    }
+
+    nav .ham i {
+        font-size: 25px;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
     }
 
     nav .nav-links ul {
@@ -866,6 +883,7 @@ footer {
         height: 320px;
         justify-content: center;
         align-items: center;
+        z-index: 100000;
     }
 
     .connect .top .left {

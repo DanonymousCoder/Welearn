@@ -15,6 +15,8 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <!-- 
         Link to external CSS
     -->
@@ -42,13 +44,18 @@
                         <img src="./assets/images/WeLearn.png" alt="">
                     </div>
 
-                    <div class="right active">
+                    <div class="right" id="nav-links">
 
                         <!--
                             Nav links
                         -->
 
                         <div class="nav-links">
+
+                            <div class="ham">
+                                <i class='bx bxs-x-circle' id="nav-close"></i>
+                            </div>
+
                             <ul>
                                 <li><a href="#home" class="bold">Home</a></li>
                                 <li><a href="#about">About</a></li>
@@ -64,6 +71,10 @@
                             <a href="./pages/login.html">Login</a>
                             <a href="./pages/signup.html" class="have-bg">Sign Up</a>
                         </div>
+                    </div>
+
+                    <div class="ham">
+                        <i class='bx bx-menu' id="nav-toggler"></i>
                     </div>
                 </nav>
             </div>
@@ -280,6 +291,8 @@
 
     </div>
 
+
+    <script src="./script.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
