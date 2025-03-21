@@ -2,302 +2,321 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- 
+  <!-- 
         Link to Lato font
     -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- 
+  <!-- 
         Link to external CSS
     -->
 
-    <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/style.css">
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title>Welearn</title>
+  <title>Welearn</title>
 </head>
 
 <body>
 
-    <div class="container">
+  <div class="container">
 
-        <header>
+    <header>
 
-            <!--
+      <!--
                 navbar
             -->
 
-            <div class="nav-cont" id="home">
-                <nav>
-                    <div class="logo">
-                        <img src="./assets/images/WeLearn.png" alt="">
-                    </div>
+      <div class="nav-cont" id="home">
+        <nav>
+          <div class="logo">
+            <img src="./assets/images/WeLearn.png" alt="">
+          </div>
 
-                    <div class="right" id="nav-links">
+          <div class="right" id="nav-links">
 
-                        <!--
+            <!--
                             Nav links
                         -->
 
-                        <div class="nav-links">
+            <div class="nav-links">
 
-                            <div class="ham">
-                                <i class='bx bxs-x-circle' id="nav-close"></i>
-                            </div>
+              <div class="ham">
+                <i class='bx bxs-x-circle' id="nav-close"></i>
+              </div>
 
-                            <ul>
-                                <li><a href="#home" class="bold">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#connect">Community</a></li>
-                                <li><a href="#library">Library</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- 
-                            Nav buttons
-                        -->
-                        <div class="join">
-                            <a href="./pages/login.html">Login</a>
-                            <a href="./pages/signup.html" class="have-bg">Sign Up</a>
-                        </div>
-                    </div>
-
-                    <div class="ham">
-                        <i class='bx bx-menu' id="nav-toggler"></i>
-                    </div>
-                </nav>
+              <ul>
+                <li><a href="#home" class="bold">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#connect">Community</a></li>
+                <li><a href="#library">Library</a></li>
+              </ul>
             </div>
 
-
             <!-- 
+                            Nav buttons
+                        -->
+            <div class="join">
+              <a href="./pages/login.html">Login</a>
+              <a href="./pages/signup.html" class="have-bg">Sign Up</a>
+            </div>
+          </div>
+
+          <div class="ham">
+            <i class='bx bx-menu' id="nav-toggler"></i>
+          </div>
+        </nav>
+      </div>
+
+
+      <!-- 
                 Hero Section
             -->
 
-            <div class="hero-container">
-                <div class="hero-cont">
-                    <div class="hero">
-                        <div class="main">
-                            <div class="text">
-                                <h1 data-aos="fade-down-right" data-aos-duration="1500">
-                                    Empowering Students,
-                                    Shaping The Future.
-                                </h1>
-                                <p data-aos="fade-up" data-aos-duration="2000">
-                                    A global student community fostering learning, collaboration,
-                                    and access to essential resources to drive sustainable development.
-                                </p>
-                            </div>
+      <div class="hero-container">
+        <div class="hero-cont">
+          <div class="hero">
+            <div class="main">
+              <div class="text">
+                <h1 data-aos="fade-down-right" data-aos-duration="1500">
+                  Empowering Students,
+                  Shaping The Future.
+                </h1>
+                <p data-aos="fade-up" data-aos-duration="2000">
+                  A global student community fostering learning, collaboration,
+                  and access to essential resources to drive sustainable development.
+                </p>
+              </div>
 
-                            <div class="explore" data-aos="fade-up" data-aos-duration="2700">
-                                <input type="text" placeholder="Email address">
-                                <a href="./pages/signup.html" class="explr">Sign Up <img src="./assets/images/send.png"
-                                        alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <img src="./assets/images/profile-tree.png" alt="student-tree" class="tree">
-
-                </div>
-
-                <img src="./assets/images/hero-arrow.png" alt="pointer" class="hero-arr">
-
-                <img src="./assets/images/rectangle.png" alt="rectangle" class="rectangle">
-
+              <div class="explore" data-aos="fade-up" data-aos-duration="2700">
+                <input type="text" placeholder="Email address">
+                <a href="./pages/signup.html" class="explr">Sign Up <img src="./assets/images/send.png" alt=""></a>
+              </div>
             </div>
+          </div>
 
-        </header>
-
-        <main>
-
-            <!--
-                About Section
-            -->
-
-            <div class="about-cont" id="about" data-aos="fade-down-right" data-aos-duration="1500">
-                <div class="about">
-                    <div class="head" data-aos="flip-left" data-aos-duration="2000">
-                        <h4>About We<span>Learn</span></h4>
-                    </div>
-
-                    <div class="body" data-aos="fade-up" data-aos-duration="2500">
-                        <p>
-                            Welearn is a vibrant student community designed to empower learning, collaboration, and
-                            growth. We believe that education extends beyond the classroom, that’s why we’ve built a
-                            space where students can connect, share knowledge, and access valuable resources.
-                        </p>
-                        <a href="./pages/signup.html">Sign Up</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 
-                Connect section
-            -->
-
-            <div class="connect-cont" id="connect" data-aos="zoom-in-up" data-aos-duration="1500">
-                <div class="connect">
-                    <div class="top">
-                        <div class="left">
-                            <img src="./assets/images/long.png" alt="">
-                        </div>
-                        <div class="right">
-                            <div class="row1">
-                                <div class="img1">
-                                    <img src="./assets/images/grid1.png" alt="">
-                                </div>
-
-                                <div class="img1">
-                                    <img src="./assets/images/grid2.png" alt="">
-                                </div>
-                            </div>
-
-                            <div class="row2">
-                                <div class="img1">
-                                    <img src="./assets/images/grid3.png" alt="">
-                                </div>
-
-                                <div class="img1">
-                                    <img src="./assets/images/grid4.png" alt="">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!--
-                        Connect Text/Bottom
-                    -->
-                    <div class="bottom">
-                        <h5 data-aos="flip-right" data-aos-duration="2000">Connect</h5>
-                        <p data-aos="zoom-out-down" data-aos-duration="3000">
-                            Connect with students like yourself around the world. Share ideas,
-                            do home works, innovate, and discuss the future.
-                        </p>
-
-                        <!-- button -->
-
-                        <a href="#">
-                            Start Connecting
-                        </a>
-                    </div>
-                </div>
-
-                <img src="./assets/images/connect-illlustr.png" alt="" class="connect-illustr">
-            </div>
-
-            <!--
-                Library Section
-            -->
-
-            <div class="library-cont" id="library" data-aos="fade-down-right" data-aos-duration="1500">
-                <div class="about">
-                    <div class="head" data-aos="flip-left" data-aos-duration="2000">
-                        <h4>Library</h4>
-                    </div>
-
-                    <div class="body" data-aos="fade-up" data-aos-duration="2500">
-                        <p>
-                            Our Library is the life saving parachute every students dream to have.
-                            There, you can get books, resources, texts, courses, and lots more!
-                        </p>
-                        <a href="./pages/library.html">Get resources</a>
-                    </div>
-                </div>
-            </div>
-
-        </main>
-
-        <div class="footer-cont">
-
-            <img src="./assets/images/footer-illustr.png" alt="" class="footer-illustr">
-
-            <div class="cta">
-                <div class="cta-in">
-                    <h4>Sign Up For Newsletters by dropping your
-                        email address.</h4>
-
-                    <div class="input">
-
-                        <div class="img">
-                            <img src="./assets/images/mail.png" alt="email icon">
-                        </div>
-
-                        <input type="email" placeholder="Email address...">
-
-                        <a href="#" class="cta-butn">
-                            I’m In!
-                        </a>
-                    </div>
-
-                    <img class="ellipse" src="./assets/images/Ellipse 1 (1).png" alt="">
-                </div>
-            </div>
-
-            <footer>
-                <div class="footer-content">
-                    <div class="left">
-                        <div class="logo">
-                            <h2>WeLearn.</h2>
-                        </div>
-
-                        <p>
-                            Welearn not only give you the space to
-                            learn, it gives you the flex to build life time
-                            connections.
-                        </p>
-                    </div>
-                    <div class="right">
-                        <div class="col">
-                            <p>We</p>
-                            <ul>
-                                <li><a href="#about">About us</a></li>
-                                <li><a href="./pages/signup.html">Membership</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col">
-                            <p>Community</p>
-                            <ul>
-                                <li><a href="./pages/library.html">Library</a></li>
-                                <li><a href="#connect">Connect</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col">
-                            <p>Support</p>
-                            <ul>
-                                <li><a href="#">Donate</a></li>
-                                <li><a href="#">Mentor</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </footer>
+          <img src="./assets/images/profile-tree.png" alt="student-tree" class="tree">
 
         </div>
 
+        <img src="./assets/images/hero-arrow.png" alt="pointer" class="hero-arr">
+
+        <img src="./assets/images/rectangle.png" alt="rectangle" class="rectangle">
+
+      </div>
+
+    </header>
+
+    <main>
+
+      <!--
+                About Section
+            -->
+
+      <div class="about-cont" id="about" data-aos="fade-down-right" data-aos-duration="1500">
+        <div class="about">
+          <div class="head" data-aos="flip-left" data-aos-duration="2000">
+            <h4>About We<span>Learn</span></h4>
+          </div>
+
+          <div class="body" data-aos="fade-up" data-aos-duration="2500">
+            <p>
+              Welearn is a vibrant student community designed to empower learning, collaboration, and
+              growth. We believe that education extends beyond the classroom, that’s why we’ve built a
+              space where students can connect, share knowledge, and access valuable resources.
+            </p>
+            <a href="./pages/signup.html">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 
+                Connect section
+            -->
+
+      <div class="connect-cont" id="connect" data-aos="zoom-in-up" data-aos-duration="1500">
+        <div class="connect">
+          <div class="top">
+            <div class="left">
+              <img src="./assets/images/long.png" alt="">
+            </div>
+            <div class="right">
+              <div class="row1">
+                <div class="img1">
+                  <img src="./assets/images/grid1.png" alt="">
+                </div>
+
+                <div class="img1">
+                  <img src="./assets/images/grid2.png" alt="">
+                </div>
+              </div>
+
+              <div class="row2">
+                <div class="img1">
+                  <img src="./assets/images/grid3.png" alt="">
+                </div>
+
+                <div class="img1">
+                  <img src="./assets/images/grid4.png" alt="">
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!--
+                        Connect Text/Bottom
+                    -->
+          <div class="bottom">
+            <h5 data-aos="flip-right" data-aos-duration="2000">Connect</h5>
+            <p data-aos="zoom-out-down" data-aos-duration="3000">
+              Connect with students like yourself around the world. Share ideas,
+              do home works, innovate, and discuss the future.
+            </p>
+
+            <!-- button -->
+
+            <a href="#">
+              Start Connecting
+            </a>
+          </div>
+        </div>
+
+        <img src="./assets/images/connect-illlustr.png" alt="" class="connect-illustr">
+      </div>
+
+      <!--
+                Library Section
+            -->
+
+      <div class="library-cont" id="library" data-aos="fade-down-right" data-aos-duration="1500">
+
+        <div class="head">
+          <img src="./assets/images/library_img.png" alt="" data-aos="flip-right" data-aos-duration="2000">
+        </div>
+
+        <div class="about">
+          <div class="head" data-aos="flip-left" data-aos-duration="2000">
+            <h4>Library</h4>
+          </div>
+
+          <div class="body" data-aos="fade-up" data-aos-duration="2500">
+            <p>
+              Our Library is the life saving parachute every students dream to have.
+              There, you can get books, resources, texts, courses, and lots more!
+            </p>
+            <a href="./pages/library.html">Get resources</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!--
+          Community Section
+       -->
+
+      <div class="comm-cont">
+        <div class="comm-illustr">
+          <img src="./assets/images/community.png" alt="">
+        </div>
+
+        <div class="img" data-aos="flip-up" data-aos-duration="2500">
+          <img src="./assets/images/your community.png" alt="">
+        </div>
+      </div>
+
+    </main>
+
+    <div class="footer-cont">
+
+      <img src="./assets/images/footer-illustr.png" alt="" class="footer-illustr">
+
+      <div class="cta">
+        <div class="cta-in">
+          <h4>Sign Up For Newsletters by dropping your
+            email address.</h4>
+
+          <div class="input">
+
+            <div class="img">
+              <img src="./assets/images/mail.png" alt="email icon">
+            </div>
+
+            <input type="email" placeholder="Email address...">
+
+            <a href="#" class="cta-butn">
+              I’m In!
+            </a>
+          </div>
+
+          <img class="ellipse" src="./assets/images/Ellipse 1 (1).png" alt="">
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-content">
+          <div class="left">
+            <div class="logo">
+              <h2>WeLearn.</h2>
+            </div>
+
+            <p>
+              Welearn not only give you the space to
+              learn, it gives you the flex to build life time
+              connections.
+            </p>
+          </div>
+          <div class="right">
+            <div class="col">
+              <p>We</p>
+              <ul>
+                <li><a href="#about">About us</a></li>
+                <li><a href="./pages/signup.html">Membership</a></li>
+              </ul>
+            </div>
+
+            <div class="col">
+              <p>Community</p>
+              <ul>
+                <li><a href="./pages/library.html">Library</a></li>
+                <li><a href="#connect">Connect</a></li>
+              </ul>
+            </div>
+
+            <div class="col">
+              <p>Support</p>
+              <ul>
+                <li><a href="#">Donate</a></li>
+                <li><a href="#">Mentor</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+
     </div>
 
+  </div>
 
-    <script src="./script.js"></script>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+  <script src="./script.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 

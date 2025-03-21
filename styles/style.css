@@ -238,6 +238,7 @@ main {
     gap: 5em;
     margin-top: 200px;
     margin-bottom: 100px;
+    position: relative;
 }
 
 /*
@@ -458,7 +459,9 @@ main {
 .library-cont {
     width: 80%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    gap: 3em;
+    flex-direction: column;
     margin-top: 80px;
     margin-bottom: 500px;
 }
@@ -467,6 +470,15 @@ main {
 /*
     Library section
 */
+
+.comm-cont {
+    margin-bottom: 300px;
+}
+
+.comm-illustr {
+    position: absolute;
+    left: 0;
+}
 
 .footer-cont {
     width: 100%;
