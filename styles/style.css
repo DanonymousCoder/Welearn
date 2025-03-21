@@ -102,6 +102,10 @@ nav .join .have-bg {
     color: #FFFFFF;
 }
 
+.ham {
+    display: none;
+}
+
 /*
     Hero
 */
@@ -658,6 +662,10 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+    .ham {
+        display: block;
+    }
+
     .hero .main .explore {
         max-width: 100%;
     }
@@ -744,6 +752,10 @@ footer {
     .connect-illustr {
         display: none;
     }
+
+    .ham {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -752,12 +764,12 @@ footer {
     }
 
     nav .right {
-        position: absolute;
         display: none;
     }
 
     nav .right.active {
         display: none;
+        position: absolute;
         top: 0;
         height: 100vh;
         width: 100%;
@@ -793,6 +805,10 @@ footer {
 
     nav .join {
         flex-direction: column;
+    }
+
+    .ham {
+        display: block;
     }
 
     .hero-cont {
