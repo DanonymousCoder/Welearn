@@ -960,6 +960,19 @@ footer {
         font-size: 18px;
     }
 
+    .comm-cont {
+        width: 100%;
+        margin-bottom: 350px;
+    }
+
+    .comm-cont .comm-illustr {
+        max-width: 10px;
+    }
+
+    .comm-cont .img {
+        max-width: 80%;
+    }
+
     .connect-illustr {
         height: 200px;
     }
