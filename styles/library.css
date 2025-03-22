@@ -18,6 +18,7 @@ ul {
 
 .container {
     width: 100%;
+    overflow: hidden;
 }
 
 .nav-cont {
@@ -305,6 +306,12 @@ h6 {
     width: 20px;
 }
 
+@media (max-width: 1024px) {
+    nav {
+        width: 90%;
+    }
+}
+
 @media (min-width: 1000px) and (max-width: 1224px) and (max-resolution: 1.5dppx) {
     nav {
         width: 90%;
@@ -329,5 +336,94 @@ h6 {
 
     nav .join {
         gap: 1em;
+    }
+}
+
+@media (max-width: 430px) {
+    nav {
+        width: 90%;
+    }
+
+    nav .right {
+        display: none;
+    }
+
+    nav .right.active {
+        display: none;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: 3000;
+        background-color: #F9F9F9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    nav .right.active .ham {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    nav .right.active .ham i {
+        font-size: 40px;
+    }
+
+    nav .ham i {
+        font-size: 25px;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+    }
+
+    nav .nav-links ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ham {
+        display: block;
+    }
+
+    .book-cont .book-col .top {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .book-cont .book-col .top h5 {
+        font-size: 18px;
+    }
+
+    .book-cont .book-col .top .input {
+        max-width: 110%;
+    }
+
+    .book-cont .book-col .top .input input::placeholder {
+        font-size: 12px;
+    }
+
+    .book-cont .book-col .top .input img {
+        height: 25px;
+    }
+
+    .book-cont .book-col .top .btn {
+        justify-content: flex-end;
+        width: 110%;
+    }
+
+    .book-cont .book-col .top .btn a {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .book-cont .book-col .bottom {
+        width: 100%;
+    }
+
+    .book-cont .book-col .bottom .all {
+        width: 40%;
     }
 }

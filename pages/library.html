@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="../styles/library.css">
 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <title>Library | WeLearn</title>
 </head>
 
@@ -23,13 +25,19 @@
                     <img src="../assets/images/WeLearn.png" alt="">
                 </div>
 
-                <div class="right">
+                <div class="right" id="nav-links">
 
                     <!--
                             Nav links
                         -->
 
                     <div class="nav-links">
+
+
+                        <div class="ham">
+                            <i class='bx bxs-x-circle' id="nav-close"></i>
+                        </div>
+
                         <ul>
                             <li><a href="#"><img src="../assets/images/Frame 11.png" alt=""></a></li>
                             <li><a href="../index.html">Home</a></li>
@@ -47,6 +55,11 @@
                         <a href="./signup.html" class="have-bg">Sign Up</a>
                     </div>
                 </div>
+
+                <div class="ham">
+                    <i class='bx bx-menu' id="nav-toggler"></i>
+                </div>
+
             </nav>
         </div>
 
@@ -202,6 +215,8 @@
             </div>
         </div>
     </div>
+
+    <script src="../script.js"></script>
 
 </body>
 
