@@ -207,6 +207,8 @@ nav .join .have-bg {
     width: 30%;
     border-bottom: 1px solid #E60000;
     padding: 10px 5px;
+    display: flex;
+    align-items: center;
 }
 
 .book-cont .book-col .bottom .all h5 {
@@ -221,6 +223,8 @@ nav .join .have-bg {
     width: 70%;
     border-bottom: 1px solid #DDDDDD;
     padding: 10px 30px;
+    display: flex;
+    align-items: center;
 }
 
 .book-cont .book-col .bottom .saved h5 {
@@ -425,5 +429,52 @@ h6 {
 
     .book-cont .book-col .bottom .all {
         width: 40%;
+    }
+
+    .book-cont .book-col .bottom .saved,
+    .book-cont .book-col .bottom .all {
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .book-cont .book-col .bottom .saved h5,
+    .book-cont .book-col .bottom .all h5 {
+        font-size: 13px;
+    }
+
+    .bg {
+        gap: .5em;
+    }
+
+    .book-sec {
+        width: 90%;
+    }
+
+    .pagination {
+        padding: 0 5px;
+    }
+
+    .pagination img {
+        height: 20px;
+    }
+
+    .boxes {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        gap: 1em;
+    }
+
+    .box {
+        width: 35%;
+    }
+
+    .butt {
+        padding: 10px 10px;
+    }
+
+    .butt p {
+        font-size: 12px;
     }
 }
