@@ -963,6 +963,7 @@ footer {
     .comm-cont {
         width: 100%;
         margin-bottom: 350px;
+        z-index: 1000;
     }
 
     .comm-cont .comm-illustr {
@@ -979,7 +980,7 @@ footer {
 
     .footer-illustr {
         max-height: 200px;
-        top: -120%;
+        top: -124%;
     }
 
     .cta {

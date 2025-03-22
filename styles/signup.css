@@ -204,3 +204,22 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+@media (max-width: 430px) {
+    .container {
+        height: 130vh;
+    }
+
+    .right {
+        width: 90%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .terms,
+    .alt {
+        width: 90%;
+    }
+}
