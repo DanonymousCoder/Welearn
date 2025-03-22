@@ -1,3 +1,8 @@
+:root {
+  --background-clr: #ffffff;
+  --search-clr: #f9f9f9;
+  --text-clr: #808080;
+}
 * {
   padding: 0;
   margin: 0;
@@ -7,12 +12,13 @@
 }
 body {
   background: rgb(247, 237, 237);
+  transition: 450ms ease-in-out;
 }
 /* HEADING SECTION */
 .heading {
   display: flex;
   justify-content: space-between;
-  background: #ffffff;
+  background: var(--background-clr);
   box-shadow: 1px 1px 5px #ddd, 1px 1px 5px #ddd;
   padding: 10px;
 }
@@ -27,10 +33,10 @@ body {
   padding: 10px;
   width: 395px;
   height: 35px;
-  background: #f9f9f9;
+  background: var(--search-clr);
   font-style: italic;
   font-family: cursive;
-  border: none;
+  border: 1px solid wheat;
   border-radius: 7px;
   margin-top: 5px;
   margin-left: -100px;
@@ -87,6 +93,11 @@ i:hover {
   width: 37px;
   height: 37px;
 }
+.profile i {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
 
 /* ACCESS SECTION */
 .access {
@@ -112,12 +123,12 @@ i:hover {
 .search-topic {
   width: 450px;
   height: 32.5px;
-  padding: 5px;
-  color: gray;
-  background: #f9f9f9;
+  padding: 10px;
+  color: var(--text-clr);
+  background: var(--search-clr);
   font-style: italic;
   font-family: cursive;
-  border: none;
+  border: 1px solid wheat;
   outline: none;
   border-radius: 7px;
   margin-top: 20px;
@@ -152,11 +163,9 @@ i:hover {
 .share .search {
   width: 600px;
   padding: 15px;
-  font-family: cursive;
-  font-style: italic;
-  background: #f9f9f9;
-  color: gray;
-  border: none;
+  background: var(--search-clr);
+  color: var(--text-clr);
+  border: 1px solid wheat;
 }
 .share-icons {
   position: relative;
@@ -173,8 +182,8 @@ i:hover {
 .topic {
   max-width: 900px;
   margin-top: 26px;
-  margin-left: 100px;
-  color: rgb(71, 66, 66);
+  margin-left: 51px;
+  color: var(--text-clr);
 }
 .topic ul {
   display: flex;
@@ -185,44 +194,54 @@ i:hover {
 .selected {
   color: black;
   font-weight: 550;
-  text-decoration-color: white;
 }
+
 /* RELATION SECTION */
 .relation {
-  background: transparent;
+  max-width: 1700px;
+  /* background: transparent; */
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto;
+  overflow: hidden;
+  margin-left: 100px;
 }
 .relation ul {
   display: flex;
   justify-content: space-around;
   margin-top: 26px;
   list-style: none;
+  gap: 10px;
+  /* overflow-x: scroll; */
 }
 .relation li {
-  max-width: 270px;
-  height: 35px;
+  padding: 6.5px;
+  /* height: 35px; */
   background: white;
-  color: #777;
+  color: var(--text-clr);
   border: none;
   border-radius: 4px;
-  padding: 5px;
+  justify-content: space-between;
   cursor: pointer;
 }
-ul .select {
-  text-align: center;
+ul .active {
   width: 70px;
   color: black;
-  border: 2px solid green;
+  text-align: center;
+  border: 1.35px solid #5ee085;
+  border-radius: 10px;
 }
 
 /* PROFILE SECTION */
 .profile-extend {
-  height: 120px;
+  height: 325px;
+  width: 470px;
   background: white;
-  max-width: 975px;
+  max-width: 500px;
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-  margin-left: 125px;
+  margin-left: 65px;
   border-radius: 5px;
 }
 .tag {
@@ -231,8 +250,8 @@ ul .select {
 }
 
 .tag img {
-  width: 51px;
-  height: 51px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   margin-top: 20px;
   margin-left: 30px;
@@ -247,12 +266,12 @@ ul .select {
   margin-top: 45px;
   margin-right: 550px;
 }
-.more .follow {
+.follow {
   width: 80px;
   height: 30px;
   color: black;
   text-decoration: none;
-  border: 1px solid green;
+  border: 1px solid #5ee085;
   background: white;
   border-radius: 10px;
   padding: 5px;
@@ -269,12 +288,15 @@ ul .select {
   color: #00000099;
 }
 
-/* TABLET */
+/* /TABLET/
 @media (max-width: 768px) {
+  body {
+    transition: 5s ease-in;
+  }
   .heading {
     display: flex;
     justify-content: space-between;
-    background: #ffffff;
+    background: var();
     box-shadow: 1px 1px 5px #ddd, 1px 1px 5px #ddd;
     padding: 10px;
   }
@@ -289,7 +311,7 @@ ul .select {
     padding: 10px;
     width: 255px;
     height: 30px;
-    background: #f9f9f9;
+    background: var();
     font-style: italic;
     font-family: cursive;
     border: none;
@@ -349,16 +371,16 @@ ul .select {
   }
 }
 
-/* MOBILE - 320px  */
+/* MOBILE - 320px  /
 @media (max-width: 320px) {
   .heading {
     max-width: 320px;
     display: flex;
-    /* justify-content: space-between; */
-    background: #ffffff;
-    width: 100%;
-    /* box-shadow: 1px 1px 5px #ddd, 1px 1px 5px #ddd; */
-    /* padding: 10px; */
+    justify-content: space-between;
+    background: #bd0d0d;
+    width: auto;
+    box-shadow: 1px 1px 5px #ddd, 1px 1px 5px #ddd;
+    /* padding: 10px; /
   }
   .heading h3 {
     font-size: 20px;
@@ -371,7 +393,7 @@ ul .select {
     padding: 10px;
     width: 255px;
     height: 30px;
-    background: #f9f9f9;
+    background: var();
     font-style: italic;
     font-family: cursive;
     border: none;
@@ -430,7 +452,7 @@ ul .select {
     border: 1px solid #5ee;
   }
 
-  /* ACCESS SECTION */
+  /* ACCESS SECTION /
   .access {
     width: 525px;
     height: 195px;
@@ -456,7 +478,7 @@ ul .select {
     height: 32.5px;
     padding: 5px;
     color: gray;
-    background: #f9f9f9;
+    background: var();
     font-style: italic;
     font-family: cursive;
     border: none;
@@ -468,4 +490,4 @@ ul .select {
   .access img {
     display: none;
   }
-}
+} */
