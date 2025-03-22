@@ -771,6 +771,10 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
+    main {
+        gap: 3em;
+    }
+
     nav {
         position: relative;
     }
@@ -962,8 +966,8 @@ footer {
 
     .comm-cont {
         width: 100%;
-        margin-bottom: 350px;
-        z-index: 1000;
+        z-index: 1200;
+        margin-bottom: 400px;
     }
 
     .comm-cont .comm-illustr {
@@ -972,6 +976,11 @@ footer {
 
     .comm-cont .img {
         max-width: 80%;
+    }
+
+    .comm-cont .img img,
+    .library-cont .head img {
+        height: 450px;
     }
 
     .connect-illustr {
