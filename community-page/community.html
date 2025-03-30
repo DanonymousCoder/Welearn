@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Community Page</title>
     <link rel="stylesheet" href="./styling/community.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +20,7 @@
   <body>
     <div class="container">
       <!-- HEADING SECTION -->
-      <div class="heading">
+      <header class="heading">
         <h3>Community</h3>
         <input type="search" class="search" placeholder="Search...." />
         <div class="country-notify">
@@ -30,7 +30,7 @@
             <option value="">US</option>
             <option value="">NGN</option>
           </select>
-          <div class="icons">
+          <div class="notify-icons">
             <i class="bx bx-message"></i>
             <i class="bx bx-bell"></i>
           </div>
@@ -93,23 +93,26 @@
       </div>
       <!-- PROFILE SECTION -->
       <div class="profile-extend">
-        <div class="tag">
+        <div class="profile-info">
           <img src="./styling/test-profile.jpeg" />
           <p class="name">John Doe</p>
           <span class="last-seen">2hrs ago</span>
-        </div>
-        <div class="more">
+          <div class="connect">
           <button class="follow">
-            <i class="bx bx-plus">Follow</i>
+            <i class="bx bx-plus"></i>  
+              Follow  
           </button>
           <i class="bx bx-dots-horizontal-rounded dot"></i>
+          </div>
         </div>
+        <div class="text">
         <p>
-          🔢 Math Help Needed! 🚀 Hey everyone! I’m stuck on a particular
+          🔢 Math Help Needed! 
+          🚀 Hey everyone! I’m stuck on a particular
           question in quadratic equations, and I could really use some help.
           🤔💡 The question is: Solve for x: 2x² - 5x - 3 = 0 I’ve tried solving
           it, but I’m not quite getting it. If anyone can break it down or
-          explain the approach, I’d really appreciate it! 🙌📚 Drop your
+          explain the approach, I’d really appreciate it! 🙌📚 <br>Drop your
           explanations in the comments or DM me. Let’s learn together! 💪✨
           #StudentCommunity #MathHelp #QuadraticEquations
         </p>
@@ -120,6 +123,8 @@
           <span>Message</span>
           <i class="bx bx-share"></i>
           <span>Share</span>
+        </div>
+        </div>
       </div>
     </div>
   </body>

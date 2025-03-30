@@ -8,7 +8,7 @@
   margin: 0;
   font-family: "Poppins", serif;
   box-sizing: border-box;
-  max-width: auto;
+  max-width: 100%;
 }
 body {
   background: rgb(247, 237, 237);
@@ -55,21 +55,21 @@ body {
   font-weight: 250;
   margin-top: 5px;
 }
-.icons {
+.notify-icons {
   font-weight: 700;
   font-size: 20px;
   color: #001a72;
   display: flex;
   justify-content: space-between;
 }
-.icons i {
+.notify-icons i {
   position: relative;
   font-size: 23px;
   z-index: 1.2;
   margin-top: 9px;
   margin-left: 15px;
 }
-.icons i:hover {
+.notify-icons i:hover {
   color: rgb(234, 235, 239);
   background: none;
 }
@@ -199,7 +199,7 @@ i:hover {
 /* RELATION SECTION */
 .relation {
   max-width: 1700px;
-  /* background: transparent; */
+  background: transparent;
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto;
@@ -224,32 +224,99 @@ i:hover {
   justify-content: space-between;
   cursor: pointer;
 }
-ul .active {
+ul .select {
   width: 70px;
   color: black;
   text-align: center;
   border: 1.35px solid #5ee085;
-  border-radius: 10px;
+  border-radius: 5%;
+  font-weight: bold;
 }
 
 /* PROFILE SECTION */
 .profile-extend {
+  max-width: 1000px;
+  height: 450px;
+  background: var(--background-clr);
+  border-radius: 4.5px;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.text {
+  background: red;
+  position: relative;
+  top: 100px;
+  line-break: auto;
+  gap: 10px;
+}
+.profile-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 150px;
+}
+.profile-info p {
+  font-weight: 600;
+  position: absolute;
+  bottom: 30px;
+  left: 225px;
+}
+.profile-info span {
+  font-weight: 350;
+  color: var(--text-clr);
+  font-size: 14px;
+  position: absolute;
+  bottom: 13.7px;
+  left: 225px;
+}
+.connect {
+  position: absolute;
+  bottom: 25px;
+  right: 105px;
+}
+.follow {
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1.6px solid #5ee085;
+  font-size: 15px;
+}
+.follow i {
+  font-size: 14.5px;
+}
+.notify-icons {
+}
+/* .text {
+  background: turquoise;
+  position: absolute;
+  top: 650px;
+} */
+/* .profile-extend {
   height: 325px;
-  width: 470px;
-  background: white;
   max-width: 500px;
+  background: var(--background-clr);
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
   margin-left: 65px;
-  border-radius: 5px;
-}
-.tag {
+  border-radius: 3.5px;
+} */
+/* .profile-info {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-.tag img {
+img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -260,35 +327,22 @@ ul .active {
   margin-top: 25.6px;
   margin-left: 20px;
 }
-.tag span {
+.last-seen {
   color: #00000099 !important;
   font-size: 11.5px;
   margin-top: 45px;
-  margin-right: 550px;
-}
-.follow {
-  width: 80px;
-  height: 30px;
-  color: black;
-  text-decoration: none;
-  border: 1px solid #5ee085;
-  background: white;
-  border-radius: 10px;
-  padding: 5px;
-  margin-top: 10px;
-  margin-right: 20px;
-}
-.more i {
-  gap: 32px;
-  font-size: 14.5px;
-}
-.dot {
-  font-size: 20px;
-  margin-right: 20px;
-  color: #00000099;
+  /* margin-right: 550px; /
 }
 
-/* /TABLET/
+
+span {
+  color: #00000099;
+  font-size: 11.5px;
+  margin-top: 45px;
+  /* margin-right: 550px; /
+}*/
+
+/* TABLET */
 @media (max-width: 768px) {
   body {
     transition: 5s ease-in;
@@ -296,7 +350,7 @@ ul .active {
   .heading {
     display: flex;
     justify-content: space-between;
-    background: var();
+    background: var(--background-clr);
     box-shadow: 1px 1px 5px #ddd, 1px 1px 5px #ddd;
     padding: 10px;
   }
@@ -311,7 +365,7 @@ ul .active {
     padding: 10px;
     width: 255px;
     height: 30px;
-    background: var();
+    background: var(--search-clr);
     font-style: italic;
     font-family: cursive;
     border: none;
@@ -333,21 +387,21 @@ ul .active {
     font-weight: 250;
     margin-top: 5px;
   }
-  .icons {
+  .notify-icons {
     font-weight: 700;
     font-size: 20px;
     color: #001a72;
     display: flex;
     justify-content: space-between;
   }
-  .icons i {
+  .notify-icons i {
     position: relative;
     font-size: 23px;
     z-index: 1.2;
     margin-top: 9px;
     margin-left: 15px;
   }
-  .icons i:hover {
+  .notify-icons i:hover {
     color: rgb(234, 235, 239);
     background: none;
   }
@@ -371,7 +425,7 @@ ul .active {
   }
 }
 
-/* MOBILE - 320px  /
+/* MOBILE - 320px */
 @media (max-width: 320px) {
   .heading {
     max-width: 320px;
@@ -380,7 +434,7 @@ ul .active {
     background: #bd0d0d;
     width: auto;
     box-shadow: 1px 1px 5px #ddd, 1px 1px 5px #ddd;
-    /* padding: 10px; /
+    /* padding: 10px; */
   }
   .heading h3 {
     font-size: 20px;
@@ -393,7 +447,7 @@ ul .active {
     padding: 10px;
     width: 255px;
     height: 30px;
-    background: var();
+    background: var(--search-clr);
     font-style: italic;
     font-family: cursive;
     border: none;
@@ -416,21 +470,21 @@ ul .active {
     font-weight: 250;
     margin-top: 5px;
   }
-  .icons {
+  .notify-icons {
     font-weight: 700;
     font-size: 20px;
     color: #001a72;
     display: flex;
     justify-content: space-between;
   }
-  .icons i {
+  .notify-icons i {
     position: relative;
     font-size: 23px;
     z-index: 1.2;
     margin-top: 9px;
     margin-left: 9px;
   }
-  .icons i:hover {
+  .notify-icons i:hover {
     color: rgb(234, 235, 239);
     background: none;
   }
@@ -452,7 +506,7 @@ ul .active {
     border: 1px solid #5ee;
   }
 
-  /* ACCESS SECTION /
+  /* ACCESS SECTION */
   .access {
     width: 525px;
     height: 195px;
@@ -478,7 +532,7 @@ ul .active {
     height: 32.5px;
     padding: 5px;
     color: gray;
-    background: var();
+    background: var(--search-clr);
     font-style: italic;
     font-family: cursive;
     border: none;
@@ -490,4 +544,4 @@ ul .active {
   .access img {
     display: none;
   }
-} */
+}
