@@ -1,2 +1,6 @@
-const MenuButton = document.getElementsByClassName("menu-btn");
-function toggleMenu() {}
+const MenuButtons = document.getElementsByClassName("menu-btn");
+function toggleMenu(button) {
+  if (button.nextElementSibling) {
+    button.nextElementSibling.classList.toggle("show");
+  }
+}

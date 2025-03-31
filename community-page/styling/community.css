@@ -65,7 +65,7 @@ body {
 .notify-icons i {
   position: relative;
   font-size: 23px;
-  z-index: 1.2;
+  z-index: 1;
   margin-top: 9px;
   margin-left: 15px;
 }
@@ -105,13 +105,27 @@ i:hover {
   display: none;
 }
 .dropdown {
-  background: grey;
+  width: 150px;
+  background: transparent;
   border-radius: 3px;
   list-style: none;
-  cursor: pointer;
   padding: 10px;
   position: absolute;
   top: 65px;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 300ms ease-in-out;
+  overflow: hidden;
+
+  > div {
+    overflow: hidden;
+  }
+}
+.dropdown.show {
+  background: var(--background-clr);
+  grid-template-rows: 1fr;
+  z-index: 1;
+  cursor: pointer;
 }
 .dropdown li {
   border-bottom: 0.9px solid black;
@@ -323,7 +337,7 @@ ul .select {
   color: #5ee085;
   cursor: pointer;
 }
-.icons i:hover {
+/* .icons i:hover {
   animation: enlarge 3s ease-in-out 1ms;
 }
 @keyframes enlarge {
@@ -333,9 +347,9 @@ ul .select {
   }
   100% {
     color: black;
-    transform: scaleX(90%, 90%);
+    transform: scaleX(0.9);
   }
-}
+} */
 /* TABLET /
  @media (max-width: 768px) {
   body {
@@ -515,7 +529,7 @@ ul .select {
   }
   .access p {
     font-size: 23.87px;
-    font-weight: 574;
+    font-weight: 500;
     position: relative;
     margin-top: 40px;
     margin-left: 35px;
