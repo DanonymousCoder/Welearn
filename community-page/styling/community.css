@@ -70,8 +70,7 @@ body {
   margin-left: 15px;
 }
 .notify-icons i:hover {
-  color: rgb(234, 235, 239);
-  background: none;
+  color: rgb(57, 103, 239);
 }
 i:hover {
   transition: 0.9s;
@@ -98,7 +97,32 @@ i:hover {
   margin-top: 10px;
   margin-right: 10px;
 }
-
+.menu-btn {
+  background: none;
+  border: none;
+}
+.dropdown.close {
+  display: none;
+}
+.dropdown {
+  background: grey;
+  border-radius: 3px;
+  list-style: none;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 65px;
+}
+.dropdown li {
+  border-bottom: 0.9px solid black;
+}
+.dropdown li:hover {
+  color: black;
+  background: #a89f9f;
+}
+.dropdown li:last-child {
+  border: none;
+}
 /* ACCESS SECTION */
 .access {
   width: 975px;
@@ -394,8 +418,8 @@ ul .select {
     border: 1px solid #5ee;
   }
 }
-
-/* MOBILE - 320px /
+*/
+/* MOBILE - 320px */
 @media (max-width: 320px) {
   .heading {
     max-width: 320px;
@@ -431,30 +455,30 @@ ul .select {
     justify-content: space-evenly;
   }
   #country {
-    width: 70px;
+    width: 55px;
     height: 30px;
     border-radius: 5px;
     border: none;
     box-shadow: 1px 1px 5px #fff, 1px 1px 5px #ddd;
     font-weight: 250;
     margin-top: 5px;
+    margin-left: 20px;
   }
   .notify-icons {
-    font-weight: 700;
-    font-size: 20px;
+    font-size: 10px;
     color: #001a72;
     display: flex;
     justify-content: space-between;
   }
   .notify-icons i {
     position: relative;
-    font-size: 23px;
+    font-size: 20px;
     z-index: 1.2;
     margin-top: 9px;
     margin-left: 9px;
   }
   .notify-icons i:hover {
-    color: rgb(234, 235, 239);
+    color: rgb(1, 1, 2);
     background: none;
   }
   i:hover {
@@ -475,7 +499,7 @@ ul .select {
     border: 1px solid #5ee;
   }
 
-  /* ACCESS SECTION /
+  /* ACCESS SECTION */
   .access {
     width: 525px;
     height: 195px;
@@ -497,7 +521,7 @@ ul .select {
     margin-left: 35px;
   }
   .search-topic {
-    width: 450px;
+    width: 250px;
     height: 32.5px;
     padding: 5px;
     color: gray;
@@ -513,4 +537,4 @@ ul .select {
   .access img {
     display: none;
   }
-} */
+}
