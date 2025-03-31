@@ -783,6 +783,10 @@ footer {
         display: none;
     }
 
+    .f-close {
+        display: none;
+    }
+
     nav .right.active {
         display: none;
         position: absolute;
