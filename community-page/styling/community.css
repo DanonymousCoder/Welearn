@@ -86,11 +86,13 @@ i:hover {
   margin-right: 20px;
   margin-top: 8px;
 }
-.profile img {
+.profile-img {
   border-radius: 50%;
-  border: 0.5px solid #5ee085;
   width: 37px;
   height: 37px;
+}
+.profile-img.active {
+  border: 0.5px solid #5ee085;
 }
 .profile i {
   color: #063ef3;
@@ -467,6 +469,35 @@ ul .select {
     margin-left: 43px;
   }
   .access img {
+    display: none;
+  }
+
+  /* SHARE SECTION */
+  .share {
+    width: 850px;
+    display: flex;
+    background: white;
+    /* padding: 5px; */
+    border-radius: 5px;
+    justify-content: space-around;
+    margin-top: 245px;
+    margin-left: 45px;
+    box-shadow: 1px 1px 5px gray, 1px 1px 5px white;
+  }
+  .share img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+  }
+  .share .search {
+    width: 200px;
+    padding: 15px;
+    background: var(--search-clr);
+    color: var(--text-clr);
+    border: 1px solid gainsboro;
+  }
+  .share-icons {
     display: none;
   }
 }
