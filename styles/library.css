@@ -105,6 +105,10 @@ nav .join .have-bg {
     color: #FFFFFF;
 }
 
+.ham {
+    display: none;
+}
+
 .book-cont {
     width: 100%;
     display: flex;
