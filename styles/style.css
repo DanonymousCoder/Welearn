@@ -165,6 +165,7 @@ nav .join .have-bg {
 .hero .main .explore {
     width: 700px;
     position: relative;
+    z-index: 1000;
 }
 
 .hero .main .explore input {
