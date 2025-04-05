@@ -285,6 +285,7 @@ i:hover {
     gap: 5em;
     justify-content: flex-start;
     list-style: none;
+    padding-left: 15px;
     width: 100%;
 }
 

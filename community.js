@@ -15,3 +15,8 @@ function toggleMenu(button) {
 //     profile.classList.remove("active");
 //   }
 // }
+
+
+let like = document.getElementById("like");
+let pin = document.getElementById("pin");
+let follow = document.getElementById("follow");
